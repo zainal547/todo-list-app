@@ -20,6 +20,7 @@ function TodoForm(props) {
     });
     setInput("");
   };
+
   return (
     <form className="todo-form" onSubmit={handleSubmit}>
       {props.edit ? (
