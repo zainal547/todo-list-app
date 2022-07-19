@@ -30,7 +30,7 @@ function TodoForm(props) {
         </>
       ) : (
         <>
-          <input type="text" placeholder="Tulis Nama Pemain" value={input} name="text" className="todo-input edit" onChange={handleChange} ref={inputRef} />
+          <input type="text" placeholder="Input Your Todo" value={input} name="text" className="todo-input edit" onChange={handleChange} ref={inputRef} />
           <button className="todo-btn edit">Add Todo</button>
         </>
       )}

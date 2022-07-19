@@ -40,7 +40,7 @@ function TodoList() {
 
   return (
     <div>
-      <h1>Sebutkan Pemain Manchester City</h1>
+      <h1>What's a Plan Your Todo</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} editTodo={editTodo} />
     </div>
